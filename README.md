@@ -125,10 +125,16 @@ python3 protegi.py
 
 ---
 ## Example of Output
-<img width="606" height="430" alt="image" src="https://github.com/user-attachments/assets/7308e82a-1606-416c-9839-e8bfa7686d23" />
-pred_triggers:  ['cyclist','nearby_vehicle','pedestrian','traffic_element','weather_or_low_visibility']
-pred_mechanisms: ['cyclist_conflict','hard_brake_likely','low_visibility_weather','pedestrian_crossing_conflict']
-explanation: Pedestrians and a cyclist are crossing the intersection directly ahead, with the ego vehicle approaching at a steady pace. The overcast weather reduces visibility, increasing collision risk. The leading vehicle is braking, indicating a stop is required. Immediate hard braking is necessary to avoid collision in the next 1-3 seconds.
+<img width="606" height="430" alt="High risk driving scene" src="https://github.com/user-attachments/assets/7308e82a-1606-416c-9839-e8bfa7686d23" />
+
+**Predicted Triggers:**
+`cyclist` `nearby_vehicle` `pedestrian` `traffic_element` `weather_or_low_visibility`
+
+**Predicted Mechanisms:**
+`cyclist_conflict` `hard_brake_likely` `low_visibility_weather` `pedestrian_crossing_conflict`
+
+**Explanation:**
+Pedestrians and a cyclist are crossing the intersection directly ahead, with the ego vehicle approaching at a steady pace. The overcast weather reduces visibility, increasing collision risk. The leading vehicle is braking, indicating a stop is required. Immediate hard braking is necessary to avoid collision in the next 1-3 seconds.
 
 ## ProTeGi Iterations
 
